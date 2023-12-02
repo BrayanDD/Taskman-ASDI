@@ -13,7 +13,7 @@
     background-color: white;
     border: 2px blue solid;
     width: 25%;
-    height: 540px;
+    height: 500px;
     padding: 4px 8px 4px;
 }
 .contenido{
@@ -25,9 +25,33 @@
     border: 2px blue solid;
     border-radius: 6px;
     padding: 4px 8px 4px;
+    height: 500px;
 }
 .section2 i{
     line-height: 35px;
+}
+.d-flex{
+    position: relative;
+    float: right;
+    width: 60%;
+    right: 10px;
+}
+.busqueda .btn{
+    height: 40px;
+    width: 120px;
+    border-color: #0d6efd;
+    
+    color:#0d6efd;
+}
+.btn:hover{
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+.busqueda{
+    margin: 10px;
+    width: 100%;
+    height: 60px;
 }
 .section , .section2 , .section3{
     text-align: center;
@@ -37,20 +61,51 @@
     width: 80px;
     height: 100px;
 }
+.columna h1:not(a){
+    color: white;
+    font-size: 20px;
+
+}
 .lista{
-    padding-top: 80px;
     width: 100%;
+    height: 50px;
     display: flex;
 }
+.columna{
+    
+    border-color: rgb(161, 151, 137);
+    background-color: #00BFFF	;
+    border: 3px;
+    height: 100%px;
+    border-style: ridge ;
+}
 .texto{
-    margin-top: 15px;
+    border-radius: 10px;
     width: 100%;
     height: 40px;
-    border-bottom: 2px black solid ;
+    border: 2px;
+    border-color: antiquewhite;
+    border-style: ridge ;
     display: flex;
 }
 .datos{
-    margin-left: 10px;
-    border-right: 2px black solid ;
-  
+    text-align: center;
+    margin-left: 0px;
+    border-radius: 10px;
+    border-right:1px  black solid ;
+}
+.lista .btn{
+    background-color: #00BFFF	;
+    width: 100%;
+    height: 100%;
+    border: none;
+    --bs-btn-padding-y: 0.45rem;
+    font-size: 20px;
+
+}
+.cuadroRojo, .cuadroAmarillo, .cuadroAzul{
+    position: relative; 
+    width: 23px; 
+    height: 23px; 
+    margin-right: 10px;
 }
