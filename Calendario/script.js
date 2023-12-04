@@ -45,11 +45,12 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     // Aplica estilos a las flechas de navegación
-    flechaMesAnterior.style.border = "1px solid #ccc";
+    flechaMesAnterior.style.border = "1,5px  #0c0c0c";
     flechaMesAnterior.style.padding = "5px";
     flechaMesAnterior.style.cursor = "pointer";
+    
 
-    flechaMesSiguiente.style.border = "1px solid #ccc";
+    flechaMesSiguiente.style.border = "1,5px  #0c0c0c";
     flechaMesSiguiente.style.padding = "5px";
     flechaMesSiguiente.style.cursor = "pointer";
 
