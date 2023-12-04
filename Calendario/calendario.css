@@ -86,16 +86,27 @@
 #calendario .selected {
     background-color: #007bff;
     color: #fff;
+
 }
 
 /* Estilos para las flechas de navegación */
-.flecha {
-    border: 1px solid #ccc;
+.flecha1 {
+    border: 1.5px solid #0c0c0c;
     padding: 5px;
+    cursor: pointer;
+    float: left;
+    margin-left: 28px;
+    
 }
-
+.flecha2 {
+    border: 1.5px solid #0c0c0c;
+    padding: 5px;
+    margin-left:3px;
+    margin-top: 60px;
+    transform: translateY(20px);
+}
 /* Estilos cuando se pasa el cursor por encima de las flechas */
-.flecha:hover {
+.flecha1, .flecha2:hover {
     background-color: #f0f0f0;
 }
 
