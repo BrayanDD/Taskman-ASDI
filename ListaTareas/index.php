@@ -15,14 +15,14 @@ include "../includes/consultas.php"
   <body>
     <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img src="images/logo.enc" width="50px" height="60px">TASKMAN</a>
+          <a class="navbar-brand" href="index.html"><img src="../images/logo.enc" width="50px" height="60px">TASKMAN</a>
         </div>
       </nav>
     <div class="container">
         <div class="usuario">
             <section class="section">
               
-             <a href="Perfil/index.html" ><img src="images/avatar-icon-vector-illustration.jpg" alt="" class="avatar">
+             <a href="Perfil/index.html" ><img src="../images/avatar-icon-vector-illustration.jpg" alt="" class="avatar">
              <br>
              <br>
              <i class="bi bi-person-circle">Brayan</i>
