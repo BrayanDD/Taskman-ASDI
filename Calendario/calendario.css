@@ -1,13 +1,11 @@
 .section {
     height: 33%;
 }
-
 .container {
     display: flex;
     width: 100%;
     height: 100%;
 }
-
 .usuario {
     margin-top: 16px;
     margin-left: 4px;
@@ -18,7 +16,6 @@
     height: 540px;
     padding: 4px 8px 4px;
 }
-
 .contenido {
     position: relative;
     background-color: white;
@@ -29,23 +26,19 @@
     border-radius: 6px;
     padding: 4px 8px 4px;
 }
-
 .section2 i {
     line-height: 35px;
 }
-
 .section,
 .section2,
 .section3 {
     text-align: center;
 }
-
 .avatar {
     padding-top: 14px;
     width: 80px;
     height: 100px;
 }
-
 #calendario {
     width: 100%;
     max-width: 600px;
@@ -55,62 +48,41 @@
     padding: 20px;
     font-family: Arial, sans-serif;
 }
-
 #calendario table {
     width: 100%;
 }
-
 #calendario th,
 #calendario td {
     padding: 10px;
     text-align: center;
 }
-
 #calendario th {
     background-color: #333;
     color: #fff;
 }
-
 #calendario td {
     border: 1px solid #ccc;
 }
-
 #calendario td:hover {
     background-color: #e0e0e0;
 }
-
 #calendario .today {
     background-color: #ffcc00;
 }
-
 #calendario .selected {
     background-color: #007bff;
     color: #fff;
-
 }
-
-/* Estilos para las flechas de navegación */
-.flecha1 {
+.flecha {
     border: 1.5px solid #0c0c0c;
     padding: 5px;
     cursor: pointer;
     float: left;
-    margin-left: 28px;
-    
+    margin-left: 28px;    
 }
-.flecha2 {
-    border: 1.5px solid #0c0c0c;
-    padding: 5px;
-    margin-left:3px;
-    margin-top: 60px;
-    transform: translateY(20px);
-}
-/* Estilos cuando se pasa el cursor por encima de las flechas */
-.flecha1, .flecha2:hover {
+.flecha:hover {
     background-color: #f0f0f0;
 }
-
-/* Agrega este estilo al final del archivo */
 .popup {
     display: none;
     position: fixed;
@@ -121,7 +93,6 @@
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 9999;
   }
-  
   .popup-content {
     position: absolute;
     top: 50%;
@@ -131,11 +102,9 @@
     padding: 20px;
     border-radius: 6px;
   }
-  
   #popup-buttons {
     margin-top: 20px;
   }
-  
   .btn {
     margin-right: 10px;
   }
